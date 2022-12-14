@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "name": "react-app",
+  "description": "a minimal react.js project",
+  "author": "adprsi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "start": "vite preview --host --port 8000",
+    "build": "tsc && vite build",
+    "lint": "tsc --noEmit && eslint . --ext .ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vite-plugin-pwa": "^0.13.1",
+    "vite-plugin-svgr": "^2.2.2"
+  }
+}
